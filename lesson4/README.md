@@ -33,3 +33,6 @@ topicUrls.forEach(function (topicUrl) {
     });
 });
 ```
+
+之前是在ep的after里写getscore,发现score时undefine,不知道怎么改.之后看了issue里的改写在了foreach里面,
+把score通过emit传过去..然后写好了
